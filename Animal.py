@@ -8,7 +8,7 @@ class Animal:
 
     def eat(self, eat):
         self._eat = eat
-        print("I am eating", self._eat)
+        print("I am eating a", self._eat)
 
     def species(self, species):
         self._species = species
@@ -24,5 +24,9 @@ class Animal:
 
     def flee(self, escape):
         self._escape = escape
-        print("I am escaping from", self._escape)
+        print("I am escaping from a", self._escape)
+        
+
+
+
 
